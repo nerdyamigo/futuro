@@ -1,0 +1,35 @@
+body {
+  background-color: #f9f9f9 !important;
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  border-radius: 0px;
+}
+
+#header-video {
+  height: 550px;
+}
+
+#small-grid {
+  position: relative;
+  top: -150px;
+}
+
+.thumbnail {
+  height: 200px;
+}
+
+.content-main {
+  margin-top: 150px;
+  width: 85%;
+  height: 500px;
+  background-color: white;
+}
+
+.footer {
+  flex: 1;
+  height: 150px;
+  background-color: #101010;
+  margin-top: 50px;
+}
