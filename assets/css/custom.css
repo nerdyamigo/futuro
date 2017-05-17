@@ -3,6 +3,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.jumbotron {
+  background-color: transparent;
+}
 .btn {
   border-radius: 0px;
 }
@@ -33,3 +36,42 @@ body {
   background-color: #101010;
   margin-top: 50px;
 }
+
+.small-grid-wrapper {
+  background-color: black;
+  opacity: .2;
+  width: 100%;
+  height:100%;
+}
+.small-grid-wrapper:hover {
+  opacity: 0;
+}
+.t1 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/futuro-bucket/join');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.t2 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/futuro-bucket/join');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.t3 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/futuro-bucket/join');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.t4 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/futuro-bucket/join');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-pic {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://i.ytimg.com/vi/CZTdF0NwOlg/maxresdefault.jpg');
+  background-size: cover; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
