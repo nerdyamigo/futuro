@@ -76,4 +76,11 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-
+.chapter {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.spacer {
+  margin-top: 25px;
+}
