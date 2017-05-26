@@ -13,7 +13,9 @@ body {
 #header-video {
   height: 85rem;
 }
-
+#header-video-text {
+  color: white;
+}
 #small-grid {
   position: relative;
   top: -150px;
