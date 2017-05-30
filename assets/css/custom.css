@@ -80,7 +80,12 @@ body {
   width: 200px;
   height: 200px;
   background-color: red;
+  margin-right: auto;
+  margin-left: auto;
 }
 .spacer {
   margin-top: 25px;
+}
+.chapters-grid {
+  margin-top: 55px;
 }
