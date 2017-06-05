@@ -93,6 +93,14 @@ body {
 .chapters-grid {
   margin-top: 55px;
 }
+.class-pic {
+  background-image: url('https://s3-us-west-2.amazonaws.com/futuro-bucket/group_2016.jpg');
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
 main {
   flex: 1;
 }
