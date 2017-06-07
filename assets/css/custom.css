@@ -104,3 +104,12 @@ body {
 main {
   flex: 1;
 }
+.category-text {
+  height: 43rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content:center;
+  background-color: #121270;
+}
