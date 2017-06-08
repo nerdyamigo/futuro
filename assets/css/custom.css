@@ -3,9 +3,13 @@ body {
   display: flex;
   flex-flow: column;
   min-height: 100vh;
+  font-family: 'Raleway', sans-serif;
 }
 .jumbotron {
   background-color: transparent;
+}
+header {
+  font-family: 'Roboto', sans-serif;
 }
 .btn {
   border-radius: 0px;
@@ -114,4 +118,33 @@ main {
   align-items: center;
   align-content:center;
   background-color: #121270;
+}
+
+@media screen and (min-width: 768px) {
+  #custom-nav {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    box-shadow: none;
+    z-index: 999;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-transition: background .5s ease-in-out, opacity .5s ease;
+   -moz-transition: background .5s ease-in-out, opacity .5s ease;
+   transition: background .5s ease-in-out, opacity .5s ease; 
+  }
+  #custom-nav .container {
+    -webkit-transition: padding-top .5s ease, padding-bottom .5 ease;
+    -moz-transition: padding-top .5s ease, padding-bottom .5 ease;
+    transition: padding-top .5s ease, paddin-bottom .5s ease; 
+  }
+  #custom-nav.affix {
+    top: 0;
+    min-width: 100%;
+    background-color: #f8f8f8;
+    opacity: 0.9;
+    transition: background .5s ease-in-out, opacity .5s ease; 
+  }
+  #header-video {
+    padding-top: 0; 
+  }
 }

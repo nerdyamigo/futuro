@@ -6,11 +6,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel='stylesheet' href='../assets/css/custom.css'>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">:w
+    
     <title>Futuro</title>
   </head>
   <body>
 
-    <nav class='navbar navbar-inverse navbar-fixed-top'>
+    <header>
+    <nav id='custom-nav' class='navbar navbar-inverse navbar-fixed-top'>
       <div class='container'>
         <div class='navbar-header'>
            <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#collapsed-nav' aria-expanded='false'>
@@ -21,7 +24,6 @@
            </button>
            <a class='navbar-brand' href='#'>FUTURO</a>
         </div><!--end of navbar-header-->
-        
         <!-- Collect the nav links for toggling in small screens -->
         <div class='collapse navbar-collapse' id='collapsed-nav'>
           <ul class='nav navbar-nav'>
@@ -34,8 +36,9 @@
         </div><!--end of collapsed-nav-->
       </div><!-- end of navbar container -->
     </nav>
-   
     <!-- end of nav -->
+    </header>
+
     <div class='jumbotron' id='header-video'>
       <div class='container-fluid header-pic'>
             <div class='futuro-logo center-block' style='display: table'>
@@ -102,5 +105,16 @@
       crossorigin="anonymous"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type='text/javascript'>
+      $(window).scroll(function() {
+        if ($(".navbar").offset().top > 50) {
+          $("#custom-nav").addClass('affix');
+          $(".navbar-fixed-top").addClass("top-nav-collapse");
+        } else {
+          $("#custom-nav").removeClass('affix');
+          $(".navbar-fixed-top").removeClass("top-nav-collapse"); 
+        }
+      })
+    </script>
   </body>
 </html>
