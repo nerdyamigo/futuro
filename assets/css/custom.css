@@ -9,7 +9,7 @@ body {
   background-color: transparent;
 }
 header {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .btn {
   border-radius: 0px;
@@ -161,7 +161,7 @@ row.is-flex {
 }
 @media screen and (min-width: 768px) {
   #custom-nav {
-    background-color: rgba(0,0,0,0);
+    background-color: #000000;
     border: 0;
     box-shadow: none;
     z-index: 999;
@@ -188,5 +188,11 @@ row.is-flex {
   }
   .header-other-pic{
     padding-top: 0; 
+  }
+  .navbar-nav {
+    float: right 
+  }
+  .nav-black-font {
+    color: black !important; 
   }
 }
