@@ -97,11 +97,13 @@ header {
 .chapters-grid {
   margin-top: 55px;
 }
-.class-pic {
-  background-image: url('https://s3-us-west-2.amazonaws.com/futuro-bucket/group_2016.jpg');
+.header-other-pic {
+  height: 100vh;
+}
+#class-pic {
+  background-image: url('https://s3-us-west-2.amazonaws.com/futuro-bucket/group2_2016.jpg');
   width: 100%;
-  height: 43rem;
-  background-position-y: 350px;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -119,7 +121,44 @@ main {
   align-content:center;
   background-color: #121270;
 }
-
+.flex-row {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+row.is-flex {
+  display: flex  !important;
+  flex-wrap: wrap
+}
+.row.is-flex > [class*='col-'] {
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+}
+.container-fluid.flex-row.color-block-blue {
+  background-color: #121270;
+  color: white;
+  padding: 35px;
+}
+.border-right {
+  border-right: 2px solid white;
+}
+.orange-overlay {
+  background-image: url('https://s3-us-west-2.amazonaws.com/futuro-bucket/orange.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 85rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.no-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 @media screen and (min-width: 768px) {
   #custom-nav {
     background-color: rgba(0,0,0,0);
@@ -145,6 +184,9 @@ main {
     transition: background .5s ease-in-out, opacity .5s ease; 
   }
   #header-video {
+    padding-top: 0; 
+  }
+  .header-other-pic{
     padding-top: 0; 
   }
 }
