@@ -154,6 +154,16 @@ row.is-flex {
   flex-flow: column;
   justify-content: center;
 }
+.blue-overlay {
+  background-image: url('https://s3-us-west-2.amazonaws.com/futuro-bucket/fin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 30rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
 .no-padding {
   padding-top: 0;
   padding-bottom: 0;
