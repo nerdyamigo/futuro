@@ -18,7 +18,7 @@ header {
 
 #header-video {
   height: 85rem;
-  background-color: #000c;
+  background-color: rgba(0,0,0,0.60);
 }
 #header-video-text {
   margin-top: 50px;
@@ -90,8 +90,8 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 .chapter {
   width: 200px;
@@ -137,7 +137,7 @@ main {
   justify-content: center;
   align-items: center;
 }
-row.is-flex {
+.is-flex {
   display: flex  !important;
   flex-wrap: wrap
 }
@@ -196,6 +196,7 @@ row.is-flex {
 .btn-cal:hover {
  color:#ff9c11; 
 }
+
 @media screen and (min-width: 768px) {
   #custom-nav {
     background-color: #000000;
@@ -294,13 +295,13 @@ p {
   margin-bottom: 20px;
 }
 .school-logo img {
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 200px;
 }
 
 .school-logo_container {
   padding: 100px;
-  height: 750px;
+  height: 100%;
   background-color: white;
 
 }
