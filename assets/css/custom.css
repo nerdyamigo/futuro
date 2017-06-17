@@ -168,6 +168,11 @@ row.is-flex {
   flex-flow: column;
   justify-content: center;
 }
+.orange-row {
+  background-color: #ff9c11;
+  padding: 100px;
+
+}
 .blue-overlay {
   background-image: url('https://s3-us-west-2.amazonaws.com/futuro-bucket/fin.jpg');
   background-size: cover;
@@ -187,7 +192,7 @@ row.is-flex {
   padding: 100px;
   background-color: white;
 }
-.btn-cal {
+.btn-clr {
   background-color: transparent;
   border: 1px solid white;
   color: white;
@@ -284,3 +289,21 @@ p {
   font-size: 1.60rem
 }
 
+.school-logo {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.school-logo img {
+  width: 200px;
+  height: auto;
+}
+
+.school-logo_container {
+  padding: 100px;
+  height: 750px;
+  background-color: white;
+
+}
