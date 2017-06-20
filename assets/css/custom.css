@@ -12,6 +12,9 @@ body {
 header {
   font-family: 'Montserrat', sans-serif;
 }
+a {
+  text-decoration: none;
+}
 .btn {
   border-radius: 0px;
 }
