@@ -14,6 +14,11 @@ header {
 }
 a {
   text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color:white;
 }
 .btn {
   border-radius: 0px;
