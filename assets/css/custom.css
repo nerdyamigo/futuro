@@ -22,7 +22,7 @@ header {
 }
 #header-video-text {
   margin-top: 50px;
-  color: #ff9c11;
+  color: #002e77;
 }
 #small-grid {
   position: relative;
@@ -295,7 +295,7 @@ p {
   margin-bottom: 20px;
 }
 .school-logo img {
-  height: 250px;
+  height: 100px;;
 }
 
 .school-logo_container {
