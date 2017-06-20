@@ -295,8 +295,7 @@ p {
   margin-bottom: 20px;
 }
 .school-logo img {
-  width: 200px;
-  height: auto;
+  height: 250px;
 }
 
 .school-logo_container {
@@ -312,4 +311,18 @@ p {
 .sponsors-header {
   background-color: #002e77;
   height: 550px;
+}
+.flex-center-col {
+  flex-flow: column;
+  align-item: center;
+  justify-content: center;
+}
+.flex-row-center {
+  flex-flow: row;
+  flow-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  padding: 15px;
 }
