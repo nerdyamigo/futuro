@@ -295,8 +295,8 @@ p {
   margin-bottom: 20px;
 }
 .school-logo img {
-  width: auto;
-  height: 200px;
+  width: 200px;
+  height: auto;
 }
 
 .school-logo_container {
