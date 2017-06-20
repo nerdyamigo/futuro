@@ -49,6 +49,10 @@ a {
   background-color: #101010;
 }
 
+.small-grid-square {
+ width: 250px;
+ height: 250px;
+}
 .small-grid-wrapper {
   background-color: black;
   opacity: .2;
