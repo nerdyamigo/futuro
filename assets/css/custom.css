@@ -296,7 +296,7 @@ p {
 }
 .school-logo img {
   width: 200px;
-  height: 100%;
+  height: auto;
 }
 
 .school-logo_container {
